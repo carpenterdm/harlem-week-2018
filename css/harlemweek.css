@@ -1,28 +1,28 @@
-/* Fonts from Google Fonts*/
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
 
+*{
+  margin: 0;
+  padding: 0;
+}
 
 body {
   background-color: #FF7C3F;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
   padding: 5px 25px;
   font-size: 18px;
   margin: 0;
   color: #7C2A11;
 }
 
-/*USE FLOAT SO THE WORDS WRAP AROUND PICTURE, PUT PICTURE IN A BOX*/
-
-nav{
-
-  background: #7C2A11
+.video{
+ margin: 20px;
+ display: block;
+ text-align-last: center;
+  
 }
-
-
 nav ul {
   list-style-type: none;
   padding: 0;
+  margin: ;
 }
 
 nav a{
@@ -39,10 +39,11 @@ nav a:hover{
   background: #F2380C;
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 500px){
 
   nav ul{
     display: flex;
+    margin-bottom: 20px;
   } 
 
   nav li{
@@ -50,10 +51,48 @@ nav a:hover{
     flex: 1 1 0;
   }
 
+/*USE FLOAT SO THE WORDS WRAP AROUND PICTURE, PUT PICTURE IN A BOX*/
+.flexcontainer
+{width: 600px;
+margin-top: 10px;
+display: flex;
+float: right;
+}
+.bio{
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
-h1 {
+.aboutharlem h2{
+  margin-bottom: 20px;
+  color: #047C5C;
+}
+.aboutharlem p{
+  margin-bottom: 60px;
+}
+nav{
+
+  background: #7C2A11;
+}
+
+.introduction h1{
   font-family: "Merriweather", serif;
   font-size: 32px;
   color: #047C5C;
+  text-align: center;
+  margin: 20px;
 }
 
+.introduction p{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+}
