@@ -52,25 +52,33 @@ nav a:hover{
   }
 
 /*USE FLOAT SO THE WORDS WRAP AROUND PICTURE, PUT PICTURE IN A BOX*/
-.flexcontainer
-{width: 600px;
+.about
+{width: 800px;
 margin-top: 10px;
-display: flex;
+margin-bottom: 10px;
+display:flex;
 float: right;
 }
+
 .bio{
   text-align: left;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
+.bio p:{
+  margin-bottom: 60px;
+ }
+ 
 .aboutharlem h2{
   margin-bottom: 20px;
   color: #047C5C;
+  text-align: center;
 }
+
 .aboutharlem p{
   margin-bottom: 60px;
 }
+
 nav{
 
   background: #7C2A11;
@@ -89,10 +97,19 @@ nav{
   margin-top: 20px;
 }
 
-
-
-
-
-
-
 }
+
+#events p{
+  margin-bottom: 20px;
+  margin-top: 20px; 
+}
+
+#eventslink{
+   margin-bottom: 20px;
+   }
+
+footer{
+  margin:50px;
+}
+
+
