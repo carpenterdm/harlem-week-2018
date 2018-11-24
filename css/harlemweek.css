@@ -49,12 +49,12 @@ nav a:hover{
   }
 
 /*USE FLOAT SO THE WORDS WRAP AROUND PICTURE, PUT PICTURE IN A BOX*/
-.about
-{width: 800px;
-margin-top: 10px;
-margin-bottom: 10px;
+#about
+{width: 30px;
+
+margin: 30px;
 display:flex;
-float: right;
+
 }
 
 .bio{
