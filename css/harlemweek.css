@@ -48,13 +48,17 @@ nav a:hover{
     flex: 1 1 0;
   }
 
-/*USE FLOAT SO THE WORDS WRAP AROUND PICTURE, PUT PICTURE IN A BOX*/
-#about
-{width: 30px;
+/*USE FLOATS AND FLEXBOX SO THE WORDS WRAP AROUND PICTURE, PUT PICTURE IN A BOX*/
 
+.welcome
+{width: 600px;
 margin: 30px;
-display:flex;
 
+}
+
+#jb
+{width: 400px;
+margin: 50px;
 }
 
 .bio{
