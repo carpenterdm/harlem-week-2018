@@ -48,18 +48,29 @@ nav a:hover{
     flex: 1 1 0;
   }
 
-/*USE FLOATS AND FLEXBOX SO THE WORDS WRAP AROUND PICTURE, PUT PICTURE IN A BOX*/
+/*USE FLOATS OR FLEXBOX SO THE WORDS WRAP AROUND PICTURE, PUT PICTURE IN A BOX*/
 
 .welcome
-{width: 600px;
-margin: 30px;
-
+/*{width: 600px;*/
+/*margin: 30px;*/
+/*}*/
+ {width: 35%;
+    padding: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    Justify-content: flex-end;
 }
-
 #jb
-{width: 400px;
-margin: 50px;
+{   width: 10%;
+    padding: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    Justify-content: flex-start;
+    
 }
+
 
 .bio{
   text-align: left;
