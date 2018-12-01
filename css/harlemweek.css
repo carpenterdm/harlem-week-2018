@@ -54,7 +54,7 @@ nav a:hover{
 /*{width: 600px;*/
 /*margin: 30px;*/
 /*}*/
- {width: 35%;
+    {width: 35%;
     padding: 20px;
     max-width: 960px;
     margin: 0 auto;
@@ -68,9 +68,16 @@ nav a:hover{
     margin: 0 auto;
     display: flex;
     Justify-content: flex-start;
-    
 }
 
+#soultrain
+{
+    width: 100%;
+    padding: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+    display: inline-block;
+}
 
 .bio{
   text-align: left;
@@ -116,7 +123,13 @@ nav{
   color: #047C5C;
   text-align: center;
   margin: 20px; 
+  }
   
+.history p{
+  margin: 20px;
+}
+.tradition p{
+  margin: 20px;
 }
 #events p{
   margin-bottom: 20px;
