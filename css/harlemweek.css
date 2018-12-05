@@ -189,8 +189,14 @@ margin: 30px;
     max-width: 960px;
     margin: 0 auto;
     display: inline-block;
-   
-    
+}
+
+.eventsheading{
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  color: #047C5C;
+  text-align: center;
+  margin: 20px;
   
 }
   
